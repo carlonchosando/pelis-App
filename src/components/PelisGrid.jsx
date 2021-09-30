@@ -4,10 +4,11 @@ import styles from './PelisGrid.module.css';
 
 export function PelisGrid() {    
     return(
-       <ul className={styles.gridPelis}>
-          {movies.map((movie) => ( 
-          <PeliTarjeta key={movie.id} movie={movie}/>
-          ))}
-       </ul> 
+      <ul className={styles.gridPelis}>
+         {movies.map((movie) => ( 
+         <PeliTarjeta key={movie.id} movie={movie}/>
+         ))}
+      </ul> 
     );
+
 }

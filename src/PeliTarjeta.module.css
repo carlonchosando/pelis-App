@@ -1,0 +1,8 @@
+.peliTarjeta{
+   list-style: none;
+   font-size: 1.5rem;
+}
+.peliImagen{
+   border-radius: 15px;
+   background-color: azure; 
+}

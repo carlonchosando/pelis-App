@@ -1,12 +1,16 @@
 import { PelisGrid } from "./PelisGrid";
+import styles from './App.module.css';
+
 
 export function App() {
-    return <div>
+    return (
+    <div>
      <header>
-         <h1>Pelis</h1>
+         <h1 className={styles.title}>Pelis</h1>
          <main>
             <PelisGrid />
          </main>
      </header>
-    </div>;
+    </div>
+    );
 }

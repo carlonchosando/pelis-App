@@ -1,8 +1,19 @@
 .peliTarjeta{
    list-style: none;
    font-size: 1.5rem;
+   text-align: center;
 }
 .peliImagen{
    border-radius: 15px;
    background-color: azure; 
 }
+
+@media ( max-width: 560px) {
+
+   .peliImagen{
+      width: 90%;
+      height: auto; 
+   }
+
+}
+   
